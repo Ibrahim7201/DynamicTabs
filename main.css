@@ -1,0 +1,73 @@
+body {
+  background: #93ffd8;
+  font-family: sans-serif;
+  color: #333;
+}
+
+body .container ul {
+  margin: 0;
+  padding: 0;
+}
+
+body .container ul li {
+  list-style-type: none;
+  display: inline-block;
+  background: #7900ff;
+  margin: 0 10px 0 10px;
+  padding: 3px 10px;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+body .container ul li:hover {
+  color: #fff;
+  background: #548cff;
+}
+
+body .container ul li.active {
+  color: #fff;
+  background: #ffcddd;
+}
+
+body .tab {
+  display: none;
+  background: #cfffdc;
+  padding: 30px;
+  border-radius: 0 0 10px 10px;
+  line-height: 2;
+}
+
+body .tab.active {
+  display: block;
+}
+
+.new {
+  margin-top: 10rem;
+}
+
+.new input {
+  width: 15rem;
+  height: 3rem;
+  font-size: 2rem;
+}
+
+.new .in {
+  margin-right: 5rem;
+}
+
+.new #text {
+  width: 36rem;
+  height: 14rem;
+  font-size: 2rem;
+}
+
+.new .btn {
+  margin-left: 15rem;
+  position: absolute;
+  width: 10rem;
+  height: 4.5rem;
+  font-size: 3rem;
+}
+/*# sourceMappingURL=main.css.map */
